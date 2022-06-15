@@ -1,0 +1,9 @@
+# IOS-App-store-Analysis
+IOS Appstore analysis – The project is about the analysis of applications in the IOS Appstore using Python in Jupyter Notebook. 
+Libraries used: Numpy, Pandas, Matplotlib, Seaborn
+
+* The dataset was taken from Kaggle which has around 7000 rows and 16 columns.
+* The dataset is loaded using Pandas dataframes. A new categorical coded column called app_type was created to differentiate between the free and paid apps using Numpy.
+* Data cleaning was done to check for any outliers and null values in the dataframe.
+* The genres are checked and the paid apps are analysed to check how the price is distributed over each genre and to decide if the paid apps are good enough based on user ratings. Correlation matrices were also used to check the strength of the relation between the size of the app and its price.
+* Charts like pie, column, bar, scatter plot and correlation matrix charts are used to visualize the insights.
